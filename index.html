@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naitik Logistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .best-choice-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .best-choice-section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            box-shadow: #333;
+            padding: 10px;
+            max-width: 100%;
+            margin: 0 auto;
+            border: none;
+        }
+
+        .feature-item {
+            text-align: center;
+            margin: 15px;
+            flex: 1;
+            min-width: 180px;
+        }
+
+        .feature-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <h1><i class="fas fa-truck-moving"></i>Naitik Logistics</h1>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/Screenshot 2024-10-19 182344.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/WhatsApp Image 2024-10-19 at 6.29.31 PM.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="animated-header">Welcome to Naitik Logistics</h1>
+            <div class="container">
+                <p id="description" class="animated-text">We offer reliable and efficient transportation
+                    solutions, ensuring timely deliveries and exceptional service for all your logistical needs</p>
+                <a href="#services" class="transparent-button">Know More</a>
+                <a href="#contact" class="transparent-button">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+
+
+
+    <div id="about">
+        <h2 id="about" style="text-align: center; padding-bottom: 2px;"><b>About Us</b></h2>
+        <section class="section-container">
+
+            <div class="image-container">
+                <img src="./images/Fleet.png" alt="Image Description">
+            </div>
+            <div class="content-container">
+                <h2>About Company</h2>
+                <p>
+
+                    Founded in 2019, our company set out to provide reliable and professional transportation services.
+                    Despite the
+                    challenges of the pandemic, we stayed focused and determined, growing stronger through hard work.
+
+                    Our team of well-trained drivers is dedicated to ensuring safe and timely services. We prioritize
+                    punctuality and
+                    safety, whether for personal, business, or cargo transport.
+
+                    We offer flexible and affordable solutions tailored to your needs. Our vehicles are well-maintained,
+                    and
+                    we use the
+                    latest technology to ensure smooth, comfortable, and on-time trips.
+
+                    With a commitment to excellence, we continue to expand and improve every day. Choose us for
+                    transportation you can
+                    trust—reliable, safe, and always on time.
+
+                </p>
+
+            </div>
+        </section>
+    </div>
+
+
+    <section class="section-container1" style="background-color: #ffffff; text-align: center;">
+
+        </div>
+
+        <div class="best-choice-section">
+            <h2>What makes us the Best Choice</h2>
+            <div class="features">
+                <div class="feature-item"><img src="https://img.icons8.com/ios-filled/50/truck.png"
+                        alt="Comprehensive Logistics Solutions" title="Comprehensive Logistics Solutions">
+                    <p>COMPREHENSIVE LOGISTICS SOLUTIONS</p>
+
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/handshake.png"
+                        alt="Safe, Fast, and On-Time Delivery">
+                    <p>SAFE, FAST, AND ON-TIME DELIVERY</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/money.png" alt="Competitive Pricing">
+                    <p>COMPETITIVE PRICING</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-glyphs/50/driver.png" alt="Skilled Drivers">
+                    <p>SKILLED DRIVERS</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/user.png" alt="Personalized Attention">
+                    <p>PERSONALIZED ATTENTION</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- Services Section -->
+    <section>
+        <div id="services">
+
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-image road-transportation"></div>
+                    <div class="service-content">
+                        <h3>Road Transportation</h3>
+                        <p>Naitik Logistics offers reliable and efficient road transportation services across India,
+                            ensuring timely
+                            and safe delivery of your goods.</p>
+
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image odc-consignment"></div>
+                    <div class="service-content">
+                        <h3>ODC Consignment</h3>
+                        <p>Specializing in Over Dimensional Cargo (ODC) handling, we manage complex logistics for
+                            oversized loads
+                            with precision and care.</p>
+
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image flatbed-transport"></div>
+                    <div class="service-content">
+                        <h3>Flatbed Transport</h3>
+                        <p>Our flatbed transport solutions are perfect for heavy, oversized, or irregularly shaped
+                            cargo, ensuring
+                            smooth and secure delivery.</p>
+
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image supply-chain-management"></div>
+                    <div class="service-content">
+                        <h3>Supply Chain Management</h3>
+                        <p>From warehousing to distribution, our end-to-end supply chain management solutions ensure
+                            smooth,
+                            efficient, and cost-effective operations.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section id="sectionForQuote">
+        <div class="quote-container">
+            <p class="quote-text" id="txt-p">
+                We at Naitik Logistics promise to become the safest and reliable logistic service provider. Our
+                commitment is to provide
+                seamless service without compromising on quality. The staff are trained and experienced and ready to
+                step up and
+                go the extra mile to serve and meet the customer expectations. All our efforts are geared towards
+                offering you
+                the best.
+            </p>
+            <p class="author-name">Mr. Amit Tiwari</p>
+            <p class="author-title">Director, Naitik Logistics Ltd.</p>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="d98d5a8f-08c4-4674-8f0c-f8ad14760dec">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+
+
+
+
+        <div class="contact-card">
+            <h2 id="address">NAITIK LOGISTICS</h2>
+            <hr>
+            <p><strong>Nagpur Office:</strong> Plot no 271, Near Hanuman Mandir,Gulomohar Nagar,Nagpur,
+                Maharashtra
+                –
+                440035
+            </p>
+
+            <div class="info">
+                <i class="fas fa-phone"></i>
+                <p>NAGPUR: +91 8080045955 / +91 7558461666</p>
+            </div>
+           
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Naitik Logistics. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Initialize the carousel manually if needed
+        var homeCarousel = new bootstrap.Carousel('#homeCarousel', {
+            interval: 4000, // Set the interval for autoplay (3 seconds)
+            ride: 'carousel', // Auto-start the carousel
+            pause: false, // Disable pausing on hover (optional)
+            wrap: true // Loop the carousel slides
+        });
+    </script>
+
+    <script>
+        let lastScrollTop = 0;
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', function () {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                // Scrolling down
+                navbar.style.top = '-80px'; // Adjust this value based on your navbar height
+            } else {
+                // Scrolling up
+                navbar.style.top = '0';
+            }
+            lastScrollTop = scrollTop;
+        });
+    </script>
+    <script>
+        let currentIndex = 0;
+
+        function moveCarousel(direction) {
+            const items = document.querySelectorAll('.carousel-item');
+            const totalItems = items.length;
+
+            currentIndex += direction;
+
+            if (currentIndex < 0) {
+                currentIndex = totalItems - 1; // Wrap to last item } else if (currentIndex>= totalItems) {
+                currentIndex = 0; // Wrap to first item
+            }
+
+            const offset = -currentIndex * (items[0].clientWidth + 20); // Adjust for margin
+            document.querySelector('.carousel').style.transform = `translateX(${offset}px)`;
+        }
+
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
